@@ -1,0 +1,17 @@
+div {
+    margin: 10px 0;
+  }
+  .input {
+    position: absolute;
+    left: 200px;
+  }
+  #img, #age {
+    margin-top: 15px;
+  }
+  .option {
+    margin-bottom: 60px;
+  }
+  .select {
+    overflow-y: hidden;
+  }
+  

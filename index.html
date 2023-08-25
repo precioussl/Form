@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form action="#">
+        <fieldset>
+          <legend>Your address</legend>
+          <div>
+            <label for="fname">First name</label>
+            <input type="text" id="fname" class="input" />
+          </div>
+          <div>
+            <label for="lname">Last name</label>
+            <input type="text" id="lname" class="input" />
+          </div>
+          <div>
+            <label for="street">Street</label>
+            <input type="text" id="street" class="input" />
+          </div>
+          <div>
+            <label for="city">City</label>
+            <input type="text" id="street" class="input" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Additional details</legend>
+          <div>
+            <label for="bio">Biography</label>
+            <textarea name="bio" class="input"></textarea>
+          </div>
+          <div>
+            <label for="img">Image</label>
+            <input type="file" id="img" class="input" />
+          </div>
+          <div>
+            <label for="age">Age Group</label>
+            <select id="age" class="input">
+              <option>0 to 9 years</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Interests</legend>
+          <div class="option">
+            <label for="hobbies">Hobbies</label>
+            <select id="hobbies" class="input select" multiple>
+              <option>Playing soccer</option>
+              <option>Dancing</option>
+              <option>Gardening</option>
+              <option>Watching movies</option>
+            </select>
+          </div>
+          <div>
+            <label for="car">Favorite car?</label>
+            <select id="car" class="input">
+              <option>Volvo</option>
+            </select>
+          </div>
+          <div class="option">
+            <label for="transport">Favorite public transport</label>
+            <select id="transport" class="input select" multiple>
+              <optgroup label="Ground">
+                <option>Train</option>
+                <option>Grapes</option>
+              </optgroup>
+              <optgroup label="Water"></optgroup>
+            </select>
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
